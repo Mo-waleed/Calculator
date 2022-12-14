@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Font Awesome -->
+    <script src="main.js" defer></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+
+    <title>Neuorphism Calculator</title>
+  </head>
+  <body>
+    <div class="Calculator">
+      <form class="" action="#" name="form">
+        <div class="result">
+          <input type="text" name="disp" id="disp" />
+        </div>
+        <div class="btn">
+          <i class="fa-solid fa-xmark btn"></i>
+        </div>
+        <div class="buttons">
+          <div class="row">
+            <input type="button" name="v7" value="7"  onclick="val(v7.value)" />
+            <input type="button" name="v8" value="8"  onclick="val(v8.value)"/>
+            <input type="button" name="v9" value="9"  onclick="val(v9.value)"/>
+            <input type="button" name="add" value="+"  onclick="val(add.value)"/>
+          </div>
+          <div class="row">
+            <input type="button" name="v4" value="4"  onclick="val(v4.value)"/>
+            <input type="button" name="v5" value="5"  onclick="val(v5.value)"/>
+            <input type="button" name="v6" value="6" onclick="val(v6.value)" />
+            <input type="button" name="sub" value="-"  onclick="val(sub.value)"/>
+          </div>
+          <div class="row">
+            <input type="button" name="v1" value="1"  onclick="val(v1.value)"/>
+            <input type="button" name="v2" value="2" onclick="val(v2.value)" />
+            <input type="button" name="v3" value="3"  onclick="val(v3.value)"/>
+            <input type="button" name="mul" value="*" onclick="val(mul.value)" />
+          </div>
+          <div class="row">
+            <input type="button" name="v0" value="0" onclick="val(v0.value)" />
+            <input type="button" name="vdot" value="." onclick="val(vdot.value)" />
+            <input type="button" name="vdiv" value="/"  onclick="val(vdiv.value)"/>
+            <input type="button" title="click two times to clear results" name="veql" value="=" onclick="calculate()" />
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
